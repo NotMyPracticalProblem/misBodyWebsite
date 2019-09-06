@@ -19,8 +19,13 @@
   "homepage": "https://github.com/NotMyPracticalProblem/misBodyWebsite#readme",
   "dependencies": {
     "express": "^4.17.1",
+<<<<<<< Updated upstream
     "node": "^12.9.1",
     "nodemon": "^1.19.2"
   },
   "devDependencies": {}
+=======
+    "node": "^12.9.1"
+  }
+>>>>>>> Stashed changes
 }
