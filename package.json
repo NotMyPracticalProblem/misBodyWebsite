@@ -1,0 +1,25 @@
+{
+  "name": "misbodywebsite",
+  "version": "1.0.0",
+  "description": "Mis Student Body Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotMyPracticalProblem/misBodyWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NotMyPracticalProblem/misBodyWebsite/issues"
+  },
+  "homepage": "https://github.com/NotMyPracticalProblem/misBodyWebsite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^12.9.1",
+    "nodemon": "^1.19.2"
+  }
+}
