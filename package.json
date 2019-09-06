@@ -21,5 +21,6 @@
     "express": "^4.17.1",
     "node": "^12.9.1",
     "nodemon": "^1.19.2"
-  }
+  },
+  "devDependencies": {}
 }
