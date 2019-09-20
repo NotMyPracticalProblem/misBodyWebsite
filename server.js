@@ -5,25 +5,25 @@ var path = require('path');
 
 
 
-app.get('/', function(req, res) {
+app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname + '/index.html'));
 });
-app.get('/home', function(req, res) {
+app.get('/home', function (req, res) {
   res.sendFile(path.join(__dirname + '/index.html'));
 });
-app.get('/about', function(req, res) {
-    res.sendFile(path.join(__dirname + '/about.html'))
-  });
-app.get('/signup', function(req, res) {
+app.get('/about', function (req, res) {
+  res.sendFile(path.join(__dirname + '/about.html'))
+});
+app.get('/signup', function (req, res) {
   res.sendFile(path.join(__dirname + '/signup.html'))
 });
-app.get('/stdgvt', function(req, res) {
+app.get('/stdgvt', function (req, res) {
   res.sendFile(path.join(__dirname + '/government.html'))
 });
-app.get('/articles', function(req, res) {
+app.get('/articles', function (req, res) {
   res.sendFile(path.join(__dirname + '/articles.html'))
 });
-app.get('/report', function(req, res) {
+app.get('/report', function (req, res) {
   res.sendFile(path.join(__dirname + '/userReport.html'))
 });
 
